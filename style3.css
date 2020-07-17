@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Universal Styles */
+
+body {
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  color: seashell;
+  background-color: #242f44;
+  text-align: center;
+}
+
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Header Section */
+
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 77px;
+  background-color: #FF7E00;
+  border-bottom: 1px solid red ;
+  align-items: center;
+}
+
+
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 6px 1rem;
+  font-size: 2.5rem;
+}
+
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  transition-duration:400ms;
+
+}
+.topnav a:hover{
+	background-color: white;
+}
+#button{
+	padding-top: 230px;
+}
+
+.btn  {
+  border: none;
+  color: white;
+  padding: 150px 60px;
+  font-size: 30px;
+  cursor: pointer;
+
+}
+h1{
+	color: white;
+}
+.list{
+	padding-top: 100px;
+}
+
+ul {
+  background: #3399ff;
+  width: 20%;
+  padding: 5px;
+  color: black;
+}
+h3{
+	color: #FF7E00
+}
